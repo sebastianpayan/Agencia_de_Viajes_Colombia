@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="/img/airplaneIcon.png" type="image/x-icon" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <!-- Icons Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/IMG/Favicon/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title> Colombian Travel Agency </title>
+</head>
+
+<body style="position: relative" data-bs-spy="scroll" data-bs-target="#navBar" data-bs-offset="10" tabindex="0">
+  <!-- Navbar -->
+  <nav id="navBar" class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+    <div class="container">
+      <a href="/" class="navbar-brand fw-bold"><i class="bi bi-building"></i> Traveling us!
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navegation" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#destination" class="nav-link">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a href="#plans" class="nav-link">Plans and methods pay</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carosuel -->
+  <section id="home" class="mt-5">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/IMG/colombiapanoramic1-1000x200.jpg" class="d-block w-100" alt="Travel" />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/IMG/colombiapanoramic2-1000x200.jpg" class="d-block w-100" alt="Travel" />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/IMG/colombiapanoramic3-1000x200.jpg" class="d-block w-100" alt="Travel" />
+        </div>
+      </div>
+      <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section id="services" class="bg-light py-5 text-center">
+    <div class="container">
+      <div class="service">
+        <i class="bi bi-card-checklist h1"></i>
+        <i class="bi bi-card-checklist h1"></i>
+        <i class="bi bi-card-checklist h1"></i>
+      </div>
+      <h2 class="display-4 mt-3">Services!</h2>
+      <p class="Lead mb-5">
+        "At Colombian Travel Agency, we go the extra mile to transform your journey into an unforgettable adventure.
+        Your dream vacation starts here.From seamless travel planning to unforgettable experiences, we're your passport
+        to a world of adventures. Discover the
+        world with us."
+      </p>
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-4 col-xl-4 mb-md-0 mb-5">
+          <img src="./assets/IMG/Catedral.jpg" class="imgs img-fluid rounded" alt="Travel" />
+        </div>
+        <div class="col-12 col-md-12 col-lg-8 col-xl-8 my-md-5">
+          <div class="accordion accordion-flush" id="accordionServices">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="transport">
+                <button class="btns-trans accordion-button collapsed h2" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <i class="bi bi-speedometer me-1"></i> TRANSPORT
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="transport"
+                data-bs-parent="#accordionServices">
+                <div class="accordion-body">
+                  Experience luxury and safety with our armoured glass vehicles.
+                  Navigate the city hassle-free with app services like Uber, Lyft, and Cabify.
+                  Discover local gems with ease, thanks to our local taxi partnerships.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="tour">
+                <button class="btns-tour accordion-button collapsed h1" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <i class="bi bi-star me-1"></i> TOUR
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="tour"
+                data-bs-parent="#accordionServices">
+                <div class="accordion-body">
+                  Explore major cities like a local with our guided tours.
+                  Uncover the hidden treasures of iconic tourist destinations.
+                  Create memories that last a lifetime with our unforgettable tours.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="excursions">
+                <button class="btns-excur accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <i class="bi bi-signpost-split me-1"></i> EXCURSIONS
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="excursions"
+                data-bs-parent="#accordionServices">
+                <div class="accordion-body">
+                  Embark on exciting adventures to breathtaking natural wonders.
+                  Immerse yourself in culture and folcklore on our guided excursions."
+                  Escape the ordinary and explore new horizons with our trips.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="security">
+                <button class="btns-secu accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  <i class="bi bi-shield-check me-1"></i> SECURITY
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="security"
+                data-bs-parent="#accordionServices">
+                <div class="accordion-body">
+                  Stay worry-free in our handpicked, secure closed communities.
+                  Your safety is our top priority; enjoy peace of mind during your stay.
+                  Relax and unwind in our carefully selected, secure accommodations.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <main class="bg-dark text-white py-5 text-center" id="destination">
+    <div class="container">
+      <div class="start-desti">
+        <i class="bi bi-star h3"></i>
+        <i class="bi bi-star h1"></i>
+        <i class="bi bi-star h3"></i>
+      </div>
+      <h2 class="display-4 my-5">Destinations</h2>
+
+      <!-- First Destination -->
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <img src="./assets/IMG/Natural-Park-500x500.jpg" alt="Natural National Parks"
+            class="cities img-fluid rounded" />
+        </div>
+        <div class="col-12 col-lg-4">
+          <h5>Natural National Parks</h5>
+          <hr />
+          <p>
+            "Experience the untouched beauty of Colombia's Natural National Parks. Nature's masterpiece, waiting to be
+            explored."
+          </p>
+        </div>
+      </div>
+      <!-- End First Destination -->
+
+      <!-- Second Destination -->
+      <div class="row mt-5">
+        <div class="col-12 col-lg-8">
+          <img src="./assets/IMG/ciudad-vibrante-500x500.jpg" alt="Vibrante Vida Nocturna"
+            class="cities img-fluid rounded" />
+        </div>
+        <div class="col-12 col-lg-4">
+          <h5>Vibrant Night Life</h5>
+          <hr />
+          <p>
+            "Immerse yourself in Colombia's electrifying nightlife where the beats of Salsa, the rhythm of Indie Rock,
+            and the
+            modern vibes of DJ Techno unite. Dance to Latin rhythms, sway to Rap and Hip Hop, and groove to Reggaeton
+            under the city
+            lights. Explore the hottest pubs and clubs; the night is your canvas, and the music is your guide."
+          </p>
+        </div>
+      </div>
+      <!-- End Second Destination -->
+
+      <!-- Repeat the pattern for other destinations -->
+
+      <hr>
+
+      <!-- Additional content below the destinations -->
+      <div class="row mt-5">
+        <div class="col-12 col-lg-8">
+          <img src="./assets/IMG/Colombian-Gastronmy-500x500.jpg" alt="Colombian Gastronomy"
+            class="cities img-fluid rounded" />
+        </div>
+        <div class="col-12 col-lg-4">
+          <h5> Colombian Gastronomy </h5>
+          <hr />
+          <p>
+            "Savor the diverse and flavorful tapestry of Colombian cuisine. From the aromatic embrace of arepas to the
+            hearty
+            richness of bandeja paisa, embark on a culinary journey that tells the story of a nation through every
+            delicious bite."
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="my-5 display-6">
+      "We keep looking for new parts of the world where you can be happy and have new experiences 🛫"
+    </h1>
+  </main>
+
+
+  <!-- Plans and methods pay -->
+  <section id="plans" class="bg-light py-5 text-center">
+    <div class="container">
+      <div>
+        <i class="cash bi bi-cash-stack h1 pe-5"></i>
+        <i class="cards bi bi-credit-card-2-back-fill h1"></i>
+      </div>
+      <h2 class="display-4 my-5">Plans and methods pay</h2>
+
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+          <div class="card p-5 bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title h2 mb-5">Free soul!</h5>
+              <h6 class="card-subtitle mb-5 text-muted h5">
+                Connect with your inner wolf, you can know the world only
+                feeling like a free and carefree soul!😎
+              </h6>
+              <p class="card-text display-5">$250</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+          <div class="card p-5 bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title h2 mb-5">Happy Couple!</h5>
+              <h6 class="card-subtitle mb-5 text-muted h5">
+                Travel with the love of your life and the world with the
+                person who you more love!💖
+              </h6>
+              <p class="card-text display-5">$450</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+          <div class="card p-5 bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title h2 mb-5">Family time!</h5>
+              <h6 class="card-subtitle mb-5 text-muted h5">
+                Travel with your family is the best experience that you can
+                have to create some memories 👪
+              </h6>
+              <p class="card-text display-5">$800</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="display-4 my-5">You can pay with:</h2>
+      <img src="./assets/IMG/Payments Methods/MasterCard.png" class="img-pay img-fluid m-3 me-lg-5" alt="mastercard" />
+      <img src="./assets/IMG/Payments Methods/Diner´s-Club.png" class="img-pay img-fluid m-3 me-lg-5"
+        alt="dinersClub" />
+      <img src="./assets/IMG/Payments Methods/PSE.png" class="img-pay img-fluid m-3 me-lg-5" alt="pse" />
+    </div>
+  </section>
+
+  <!-- Contact us -->
+  <section id="contact" class="bg-dark text-light py-5 text-center">
+    <div class="container">
+      <div class="contact">
+        <i class="bi bi-chat-square-dots h3"></i>
+        <i class="bi bi-chat-square-dots h1"></i>
+        <i class="bi bi-chat-square-dots h3"></i>
+      </div>
+      <h1 class="display-4">Contact us!</h1>
+      <form id="formContact">
+        <div class="row px-5 align-items-center text-dark">
+          <div class="col-12 col-lg-6 mb-3">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="name" required placeholder="Enter your name"
+                name="namePerson" />
+              <label for="name">Name:</label>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 mb-3">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" required placeholder="name@example.com"
+                name="emailPerson" />
+              <label for="floatingInput">Email address:</label>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="form-floating">
+              <textarea class="form-control" required placeholder="Leave a comment here" style="height: 100px"
+                id="floatingTextarea" name="textComments"></textarea>
+              <label for="floatingTextarea">Comments, question and more!</label>
+            </div>
+          </div>
+          <button id="btnSend" type="submit" class="btn btn-primary w-100">
+            Send!
+          </button>
+          <button id="btnSending" class="btn btn-primary d-none" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Sending...
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Toats -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+      <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header bg-dark">
+          <strong class="me-auto text-light">Great</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body text-dark">
+          The message was sent successfully. 🤖
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Foooter -->
+  <footer class="bg-light py-1 text-dark text-center">
+    <div class="container">
+      <div class="row align-items-center py-5">
+        <div class="col-12 col-md-4 mb-5 mb-md-0">
+          <h3>Who are us?</h3>
+          <p>
+            "We are the dream-weavers, the adventure-seekers, and the memory-makers. At [Your Travel Agency Name], we
+            are passionate
+            about crafting extraordinary journeys that leave indelible marks on your heart. Get to know us, your travel
+            companions
+            on the road less traveled."
+          </p>
+        </div>
+        <div class="col-12 col-md-4 mb-5 mb-md-0">
+          <h3>Social Media</h3>
+          <p>
+            <a href="https://facebook.com" target="_BLANK"><i class="face bi bi-facebook h1 py-5"></i></a>
+          </p>
+          <p>
+            <a href="https://instagram.com" target="_BLANK"><i class="insta bi bi-instagram h1"></i></a>
+          </p>
+          <p>
+            <a href="https://twitter.com" target="_BLANK"><i class="twitter bi bi-twitter h1"></i></a>
+          </p>
+        </div>
+        <div class="col-12 col-md-4 mb-2mb-md-0">
+          <h3>Where find us?</h3>
+          <p>
+            "Connect with us across the digital landscape! Join our adventures in the Facebook Metaverse, explore
+            stunning visuals
+            on Instagram, and stay updated with travel tips and news on Twitter. Let's share the world together, one
+            click at a
+            time. Follow, like, and journey with us."
+          </p>
+        </div>
+      </div>
+      <p class="h4">All rights reserved&#174;</p>
+    </div>
+  </footer>
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
